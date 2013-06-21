@@ -1,0 +1,8 @@
+name: persistable_test
+description: A sample command-line application
+dependencies:
+  lawndart: any
+  web_ui: any
+
+#dependencies:
+#  unittest: any

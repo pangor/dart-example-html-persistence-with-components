@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>index</title>
+    <link rel="import" href="person_fields.html">
+  </head>
+ 
+  <body>
+    <div>
+      <person-fields person="{{newPerson}}"></person-fields>
+      <button on-click="addPerson()">Add</button>
+    </div>
+    <ul>
+      <li template repeat="p in people">
+        <person-fields person="{{p}}"></person-fields>
+        <button on-click="update(p)">update</button>
+        <button on-click="remove(p)">remove</button>
+        <span id="{{'msg-${p.dbId}'}}"></span>
+      </li>
+    </ul>
+    <div>
+      <button on-click="clear()">clear</button>
+    </div>
+    <script type="application/dart" src="index.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
