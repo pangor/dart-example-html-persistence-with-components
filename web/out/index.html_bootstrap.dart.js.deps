@@ -108,6 +108,7 @@ file:///Users/sethladd/Desktop/dart/dart-sdk/lib/utf/utf_stream.dart
 file:///Users/sethladd/Desktop/dart/dart-sdk/lib/web_audio/dart2js/web_audio_dart2js.dart
 file:///Users/sethladd/Desktop/dart/dart-sdk/lib/web_gl/dart2js/web_gl_dart2js.dart
 file:///Users/sethladd/Desktop/dart/dart-sdk/lib/web_sql/dart2js/web_sql_dart2js.dart
+file:///Users/sethladd/dart/persistable_test/web/models.dart
 file:///Users/sethladd/dart/persistable_test/web/out/index.dart
 file:///Users/sethladd/dart/persistable_test/web/out/index.html_bootstrap.dart
 file:///Users/sethladd/dart/persistable_test/web/out/packages/lawndart/lawndart.dart
@@ -117,7 +118,6 @@ file:///Users/sethladd/dart/persistable_test/web/out/packages/lawndart/src/local
 file:///Users/sethladd/dart/persistable_test/web/out/packages/lawndart/src/memory_store.dart
 file:///Users/sethladd/dart/persistable_test/web/out/packages/lawndart/src/websql_store.dart
 file:///Users/sethladd/dart/persistable_test/web/out/packages/meta/meta.dart
-file:///Users/sethladd/dart/persistable_test/web/out/packages/persistable_test/persistable.dart
 file:///Users/sethladd/dart/persistable_test/web/out/packages/web_ui/observe.dart
 file:///Users/sethladd/dart/persistable_test/web/out/packages/web_ui/observe/list.dart
 file:///Users/sethladd/dart/persistable_test/web/out/packages/web_ui/observe/map.dart
@@ -130,3 +130,5 @@ file:///Users/sethladd/dart/persistable_test/web/out/packages/web_ui/src/utils_o
 file:///Users/sethladd/dart/persistable_test/web/out/packages/web_ui/templating.dart
 file:///Users/sethladd/dart/persistable_test/web/out/packages/web_ui/watcher.dart
 file:///Users/sethladd/dart/persistable_test/web/out/packages/web_ui/web_ui.dart
+file:///Users/sethladd/dart/persistable_test/web/out/person_fields.dart
+file:///Users/sethladd/dart/persistable_test/web/persistable_html.dart
