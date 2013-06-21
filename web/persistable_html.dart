@@ -6,6 +6,7 @@ import 'package:lawndart/lawndart.dart';
 
 Store _store;
 
+// TODO one store per type ?
 Future init(String dbName, String storeName) {
   _store = new Store(dbName, storeName);
   return _store.open();
@@ -54,6 +55,7 @@ abstract class Persistable {
     var object = instance.reflectee;
     var instanceMirror = reflect(object);
     data.forEach((k, v) {
+      print('$k is a ${v.runtimeType} with value $v');
       if (classMirror.variables.containsKey(new Symbol(k))) {
         instanceMirror.setField(new Symbol(k), v);
       }

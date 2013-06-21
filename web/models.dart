@@ -9,13 +9,16 @@ class Person extends Object with Persistable {
   
   // Web UI can't deal with null fields yet
   int age = 0;
+  
+  int timestamp;
 
   // TODO: do this with mirrors
   Map toJson() {
     return {
       'firstName': firstName,
       'lastName': lastName,
-      'age': age
+      'age': age//,
+      //'timestamp': new DateTime.now().millisecondsSinceEpoch
     };
   }
   
